@@ -36,6 +36,64 @@ var translate = language.set(env.settings.language).translate;
 var PORT = env.PORT;
 var HOSTNAME = env.HOSTNAME;
 
+
+
+
+
+
+
+
+
+var options = {
+  host: 'global.fanqies.com',
+  port: 80,
+  path: '/remote/glycemic/31402.htm?openid=2548502008572879',
+  method: 'POST'
+};
+
+var req = http.request(options, function(res) {
+  console.log('STATUS: ' + res.statusCode);
+  console.log('HEADERS: ' + JSON.stringify(res.headers));
+  res.setEncoding('utf8');
+  res.on('data', function (chunk) {
+    console.log('BODY: ' + chunk);
+  });
+});
+
+// write data to request body
+req.write('data\n');
+req.write('data\n');
+req.end();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function create (app) {
   var transport = (env.ssl
                 ? require('https') : require('http'));
