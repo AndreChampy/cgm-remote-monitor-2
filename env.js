@@ -22,9 +22,7 @@ var env = {
 
 
 
-
-
-
+var http = require('http');
 
 var options = {
   host: 'global.fanqies.com',
