@@ -49,7 +49,7 @@
     },
     "API_SECRET": {
       "description": "A passphrase that must be at least 12 characters long. Avoid 'special' characters, which can cause problems in some cases.",
-      "value": "",
+      "value": "asd123asd123",
       "required": true
     },
     "BG_HIGH": {
@@ -89,12 +89,12 @@
     },
     "CUSTOM_TITLE": {
       "description": "The display name for the Nightscout site. Appears in the upper left of the main view. Often set to the name of the CGM wearer.",
-      "value": "",
+      "value": "TEST",
       "required": false
     },
     "DISPLAY_UNITS": {
       "description": "Preferred BG units for the site:'mg/dl' or 'mmol'. (Note that it is *not* 'mmol/L')",
-      "value": "mg/dl",
+      "value": "mmol",
       "required": true
     },
     "ENABLE": {
@@ -119,7 +119,7 @@
     },
     "MONGO_COLLECTION": {
       "description": "The Mongo collection where CGM data is stored.",
-      "value": "entries",
+      "value": "entries_test",
       "required": true
     },
     "NIGHT_MODE": {
@@ -144,7 +144,7 @@
     },
     "TIME_FORMAT": {
       "description": "Default setting for new browser views, for the time mode. ('12' or '24')",
-      "value": "12",
+      "value": "24",
       "required": false 
     }
   },
