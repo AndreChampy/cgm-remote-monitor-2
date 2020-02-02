@@ -17,6 +17,11 @@
       "value": "4",
       "required": false
     },
+    "AA_TWILIO_TOKEN": {
+      "description": "Twilio token.",
+      "value": "ce849d60ddd8110700d2535557",
+      "required": false
+    },
     "ALARM_HIGH": {
       "description": "Default setting for new browser views, for the High alarm (triggered when BG crosses BG_TARGET_TOP). ('on' or 'off')",
       "value": "on",
