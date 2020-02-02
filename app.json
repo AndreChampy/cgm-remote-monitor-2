@@ -19,7 +19,7 @@
     },
     "AA_TWILIO_TOKEN": {
       "description": "Twilio token.",
-      "value": "ce849d60ddd8110700d2535557",
+      "value": "",
       "required": false
     },
     "ALARM_HIGH": {
