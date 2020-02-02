@@ -2,6 +2,21 @@
   "name": "CGM Remote Monitor",
   "repository": "https://github.com/nightscout/cgm-remote-monitor",
   "env": {
+    "AA_CELL_NUM": {
+      "description": "Mobile number to send SMS alert.",
+      "value": "15068500991",
+      "required": false
+    },
+    "AA_CELL_NUM_NIGHT": {
+      "description": "Mobile number to send SMS alert at night.",
+      "value": "15068509057",
+      "required": false
+    },
+    "AA_TIME_ZONE_OFFSET": {
+      "description": "Time zone offset where the mobile will receive the SMS alert (e.g. EST is 4).",
+      "value": "4",
+      "required": false
+    },
     "ALARM_HIGH": {
       "description": "Default setting for new browser views, for the High alarm (triggered when BG crosses BG_TARGET_TOP). ('on' or 'off')",
       "value": "on",
