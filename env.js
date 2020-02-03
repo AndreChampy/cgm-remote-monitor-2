@@ -75,6 +75,12 @@ function config ( ) {
    */
   env.DISPLAY_UNITS = readENV('DISPLAY_UNITS', 'mg/dl');
 
+
+
+  env.cellNum = readENV('AA_CELL_NUM', null);
+
+
+
   // be lenient at accepting the mmol input
   if (env.DISPLAY_UNITS.toLowerCase().includes('mmol')) {
     env.DISPLAY_UNITS = 'mmol';
@@ -89,8 +95,8 @@ function config ( ) {
   env.HOSTNAME = readENV('HOSTNAME', null);
   env.IMPORT_CONFIG = readENV('IMPORT_CONFIG', null);
   env.static_files = readENV('NIGHTSCOUT_STATIC_FILES', __dirname + '/static/');
-  env.debug = {
-    minify: readENVTruthy('DEBUG_MINIFY', true)
+  
+  env.debug = { minify: readENVTruthy('DEBUG_MINIFY', true)
   };
 
   if (env.err) {

@@ -9,7 +9,7 @@
     },
     "AA_CELL_NUM_NIGHT": {
       "description": "Mobile number to send SMS alert at night.",
-      "value": "15068509057",
+      "value": "15068509074",
       "required": false
     },
     "AA_TIME_ZONE_OFFSET": {
