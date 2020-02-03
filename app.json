@@ -2,23 +2,33 @@
   "name": "CGM Remote Monitor",
   "repository": "https://github.com/nightscout/cgm-remote-monitor",
   "env": {
-    "AA_CELL_NUM": {
+    "AA_MOBILE_DAY": {
       "description": "Mobile number to send SMS alert.",
-      "value": "15068500991",
+      "value": "1506850099_",
       "required": false
     },
-    "AA_CELL_NUM_NIGHT": {
-      "description": "Mobile number to send SMS alert at night.",
-      "value": "15068509074",
-      "required": false
-    },
-    "AA_TIME_ZONE_OFFSET": {
-      "description": "Time zone offset where the mobile will receive the SMS alert (e.g. EST is 4).",
+    "AA_MOBILE_DAY_T_OFFSET": {
+      "description": "Time zone offset for mobile DAY where the mobile will receive the SMS alert (e.g. EST is 4).",
       "value": "4",
       "required": false
     },
+    "AA_MOBILE_NIGHT": {
+      "description": "Mobile number to send SMS alert at night.",
+      "value": "1506850907_",
+      "required": false
+    },
+    "AA_MOBILE_NIGHT_T_OFFSET": {
+      "description": "Time zone offset for mobile NIGHT where the mobile will receive the SMS alert (e.g. EST is 4).",
+      "value": "4",
+      "required": false
+    },
+    "AA_TWILIO_SSID": {
+      "description": "Twilio SSID.",
+      "value": "",
+      "required": false
+    },
     "AA_TWILIO_TOKEN": {
-      "description": "Twilio token.",
+      "description": "Twilio token example.",
       "value": "",
       "required": false
     },

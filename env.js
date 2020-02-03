@@ -77,7 +77,14 @@ function config ( ) {
 
 
 
-  env.cellNum = readENV('AA_CELL_NUM', null);
+  env.cellNumDay = readENV('AA_MOBILE_DAY', null);
+  env.cellNumDayOffset =  readENV('AA_MOBILE_DAY_T_OFFSET', null);
+  env.cellNumNight = readENV('AA_MOBILE_NIGHT', null);
+  env.cellNumNightOffset =  readENV('AA_MOBILE_NIGHT_T_OFFSET', null);
+
+  env.twilioSsid =  readENV('AA_TWILIO_SSID', null);
+  env.twilioToken =  readENV('AA_TWILIO_TOKEN', null);
+
 
 
 
