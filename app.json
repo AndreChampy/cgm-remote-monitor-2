@@ -4,7 +4,7 @@
   "env": {
     "AA_MOBILE_DAY": {
       "description": "Mobile number to send SMS alert.",
-      "value": "1506850099_",
+      "value": "1506850",
       "required": false
     },
     "AA_MOBILE_DAY_T_OFFSET": {
@@ -14,7 +14,7 @@
     },
     "AA_MOBILE_NIGHT": {
       "description": "Mobile number to send SMS alert at night.",
-      "value": "1506850907_",
+      "value": "1506850",
       "required": false
     },
     "AA_MOBILE_NIGHT_T_OFFSET": {
