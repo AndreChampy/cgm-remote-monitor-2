@@ -15,13 +15,7 @@ var env = {
 };
 
 
-
-
-
-
-
-
-
+/*
 var http = require('http');
 
 var options = {
@@ -44,7 +38,7 @@ var req = http.request(options, function(res) {
 req.write('data\n');
 req.write('data\n');
 req.end();
-
+*/
 
 
 
